@@ -32,9 +32,11 @@ Prerequisities:
 6.  Start the Server (localhost:4000)  
     npm run dev
 
-API Endpoints  
-Method      Endpoint        Description  
-GET         /api/tasks      Get all tasks  
-POST        /api/tasks      Create a new task  
-PUT         /api/tasks/:id  Update a specific task  
-DELETE      /api/tasks/:id  Delete a specific task
+## API Endpoints
+
+| Method  | Endpoint         | Description             |
+|---------|-------------------|-------------------------|
+| GET     | /api/tasks        | Get all tasks          |
+| POST    | /api/tasks        | Create a new task      |
+| PUT     | /api/tasks/:id    | Update a specific task |
+| DELETE  | /api/tasks/:id    | Delete a specific task |
